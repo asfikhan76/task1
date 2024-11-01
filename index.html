@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+initial-scale-1.0"
+    />
+    <title>Fitness website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <header class="header">
+        <a href="#" class="logo">LiftEdge</a>
+        <ul class="navbar">
+          <li><a href="index.html" class="header-item">Home</a></li>
+          <li><a href="workouts.html" class="header-item">Workouts</a></li>
+          <li><a href="nutrition.html" class="header-item">Nutrition</a></li>
+          <li><a href="photos.html" class="header-item">Gallery</a></li>
+          <li><a href="contact.html" class="header-item">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content" style="height: 70vh">
+        <div class="box text-box">
+          <div>
+            <h2>
+              Your limits are only<br />
+              Where <span id="hero-text" style="color: #f9dbba"></span>
+            </h2>
+          </div>
+          <p class="line-height-25px" style="color: #f9dbba">
+            Your limits are only where you place them. By embracing challenges
+            and pushing beyond comfort zones, you unlock new possibilities.
+            Self-belief and perseverance turn potential barriers into stepping
+            stones for growth, achievement, and endless opportunity.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>© 2024 LiftEdge.All Rights Reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#hero-text", {
+        strings: ["you place them."],
+        typeSpeed: 50,
+        backSpeed: 50,
+        fadeOut: true,
+        showCursor: false,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

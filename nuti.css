@@ -1,0 +1,27 @@
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+.card img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+.card-text {
+    padding: 20px;
+    width: 50%;
+}
+/* Alternate card layout styles */
+.card:nth-child(2) {
+    flex-direction: row-reverse;
+}
